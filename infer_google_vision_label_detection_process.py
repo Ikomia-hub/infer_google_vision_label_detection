@@ -121,7 +121,7 @@ class InferGoogleVisionLabelDetectionFactory(dataprocess.CTaskFactory):
         self.info.year = 2023
         self.info.license = "Apache License 2.0"
         # URL of documentation
-        self.info.documentation_link = "https://cloud.google.com/vision/docs/detecting-crop-hints"
+        self.info.documentation_link = "https://cloud.google.com/vision/docs/labels"
         # Code source repository
         self.info.repository = "https://github.com/googleapis/python-vision"
         # Keywords used for search
