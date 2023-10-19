@@ -27,7 +27,7 @@ Detect and extract information about entities in an image, across a broad group 
 - **a Google Cloud Vision API Key**
 - **a Google Cloud account with Cloud Vision API enable**
 
-**Pease refer to the 'Advanced Usage' section for guidance on how to set these up.**
+**Please refer to the 'Advanced Usage' section for guidance on how to set these up.**
 
 
 ![ocr illustration](https://cloud.google.com/static/vision/docs/images/setagaya_small.jpeg)
