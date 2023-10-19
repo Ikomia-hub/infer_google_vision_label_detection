@@ -73,6 +73,7 @@ class InferGoogleVisionLabelDetection(dataprocess.C2dImageTask):
             self.client = vision.ImageAnnotatorClient()
 
         # Convert the NumPy array to a byte stream
+        src_image = src_image[..., ::-1] # Convert to bgr
         is_success, image_buffer = cv2.imencode(".jpg", src_image)
         byte_stream = io.BytesIO(image_buffer)
 
