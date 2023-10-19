@@ -33,18 +33,16 @@ Detect and extract information about entities in an image, across a broad group 
 ![ocr illustration](https://cloud.google.com/static/vision/docs/images/setagaya_small.jpeg)
 
 - **Label: score** 
-    -	Bicycle: 0.95
-    -	Tire: 0.95
+    -	Tire: 0.96 
+    -	Bicycle: 0.96
     -	Wheel: 0.92
-    -	Bicycle wheel: 0.91
-    -	Building: 0.90
-    -	Automotive lighting: 0.90
-    -	Vehicle: 0.88
-    -	City: 0.80
-    -	Electricity: 0.78
-    -	Midnight: 0.78
-
-
+    -	Automotive lighting: 0.91
+    -	Infrastructure: 0.89
+    -	Building: 0.87
+    -	Bicycle wheel: 0.87
+    -	Vehicle: 0.86
+    -	Mode of transport: 0.85
+    -	Neighbourhood: 0.84
 
 
 
