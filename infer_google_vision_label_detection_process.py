@@ -123,7 +123,8 @@ class InferGoogleVisionLabelDetectionFactory(dataprocess.CTaskFactory):
         # URL of documentation
         self.info.documentation_link = "https://cloud.google.com/vision/docs/labels"
         # Code source repository
-        self.info.repository = "https://github.com/googleapis/python-vision"
+        self.info.repository = "https://github.com/Ikomia-hub/infer_google_vision_label_detection"
+        self.info.original_repository = "https://github.com/googleapis/python-vision"
         # Keywords used for search
         self.info.keywords = "Label Detection,Cloud,Vision AI"
         self.info.algo_type = core.AlgoType.INFER
